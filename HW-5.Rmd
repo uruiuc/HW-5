@@ -1,0 +1,33 @@
+---
+title: "MATH 216 Homework 5"
+author: "WRITE YOUR NAME HERE"
+output: html_document
+---
+
+
+## Admistrative:
+
+Please indicate
+
+* Who you collaborated with:
+* Roughly how much time you spent on this HW:
+* What gave you the most trouble:
+* Any comments you have: 
+
+
+
+
+
+## Question 1:
+
+* Pick three books from [Project Gutenberg](https://www.gutenberg.org/) and make
+a Shiny app
+    + showing the corresponding wordcloud for a given book
+    + that has "toggle" functionality to switch betwen the three books
+* Note: Project Gutenberg tends to have older books whose copyright has expired.
+* Install all necessary packages on your Middlebury Shiny server account
+following the instructions given in Lec16 Shiny.
+* Upload your app to the Middlebury Shiny server and replace the NHL link with
+the link for your app [here](https://www.nhl.com/), so that when you Knit the 
+document a working hyperlink shows.
+
