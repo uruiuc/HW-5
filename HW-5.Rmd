@@ -21,13 +21,34 @@ Please indicate
 ## Question 1:
 
 * Pick three books from [Project Gutenberg](https://www.gutenberg.org/) and make
-a Shiny app
+a "single-file" Shiny app based on file `App.R`
     + showing the corresponding wordcloud for a given book
-    + that has "toggle" functionality to switch betwen the three books
+    + that has "toggle" functionality to switch between the three books
 * Note: Project Gutenberg tends to have older books whose copyright has expired.
 * Install all necessary packages on your Middlebury Shiny server account
 following the instructions given in Lec16 Shiny.
 * Upload your app to the Middlebury Shiny server and replace the NHL link with
 the link for your app [here](https://www.nhl.com/), so that when you Knit the 
 document a working hyperlink shows.
+
+Hints:
+
+* Get your code completely working for a non-Shiny app first, then build your
+app slowly.
+* If you get stuck, please ask for help sooner rather than later. I don't want 
+people spinning their wheels on this HW this late in the semester.
+* Consider using `if` and `else` statements to switch out which text to show the
+wordcloud for. Note this isn't the only way to do this. Ex:
+
+```{r}
+text <- "blah2"
+if(text == "blah1"){
+  value <- 1
+} else if (text == "blah2"){
+  value <- 2
+} else if (text == "blah3"){
+  value <- 3
+}
+value
+```
 
