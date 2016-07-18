@@ -1,6 +1,6 @@
 ---
 title: "MATH 216 Homework 5"
-author: "WRITE YOUR NAME HERE"
+author: "Uma Ravat"
 output: html_document
 ---
 
@@ -9,7 +9,7 @@ output: html_document
 
 Please indicate
 
-* Who you collaborated with:
+* Who you collaborated with: N/A
 * Roughly how much time you spent on this HW:
 * What gave you the most trouble:
 * Any comments you have: 
